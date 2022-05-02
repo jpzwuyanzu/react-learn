@@ -1,0 +1,100 @@
+@import '~antd/dist/antd.css';
+html, body, #root, .ant-layout {
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    height: 64px;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+  .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .loginPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('./meta.jpeg') no-repeat center;
+    background-size: cover;
+    /* background: #baa1ff linear-gradient(90deg,#baa1ff,#7988fa)!important; */
+  }
+  .loginCom {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 30px;
+    border-radius: 10px;
+    /* text-align: center; */
+  }
+  .ant-input-affix-wrapper {
+    color: #ccc  !important;
+  }
+
+  /*首页样式*/
+  .static-main-body {
+    margin-bottom: 60px;
+  }
+  .baseStyle {
+    display: flex;
+    margin-bottom: 10px;
+    padding:15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 13px 0 rgb(228 228 228 / 60%)
+  }
+  .wechat {
+    background-color:#70ca63 ;
+  }
+  .qq {
+    background-color:#967adc ;
+  }
+  .ding {
+    background-color:#5d5dfd ;
+  }
+  .weibo {
+    background-color:#fb452d ;
+  }
+
+  .wechat>span,.qq>span,.ding>span,.weibo>span {
+    font-size: 60px;
+    color: white;
+ }
+ .wechat>div,.qq>div,.ding>div,.weibo>div {
+  font-size: 18px;
+  color: white;
+  margin-left: 20px;
+}
